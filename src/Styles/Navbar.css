@@ -1,0 +1,212 @@
+/* Reset styles for all elements */
+/* @media screen and (max-width: 1300px) { */
+  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles for the buttons */
+.buttons {
+  display: flex;
+  /* margin-top: 3rem; */
+  flex-direction: row;
+  gap: 1rem;
+  margin-right: 2rem;
+}
+.menu-open .iskasizechangekrna {
+  flex-direction: column;
+}
+.mobile-menu-content {
+  position: relative;
+  z-index: 1001; /* Ensure the content is above the black overlay */
+  padding: 2rem;
+  color: white;
+}
+
+/* Styles for the navigation links within the mobile menu */
+.nav-links-mobile {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar-link-mobile {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin: 1rem 0;
+  display: block;
+  transition: color 0.3s ease;
+}
+
+.navbar-link-mobile:hover {
+  color: rgb(78, 74, 255); /* Change link color on hover */
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black overlay */
+  z-index: 999; /* Place it below the mobile menu */
+  pointer-events: auto; /* Block interactions with elements behind the overlay */
+}
+
+.button1 {
+  /* margin-top: 3rem; */
+    font-family: "IBM Plex Mono", monospace;
+    border-radius: 10px;
+    width: 150px; /* Fixed width in pixels */
+    height:60px; /* Fixed height in pixels */
+    background-color:white;
+    border: white;
+    font-weight: 400;
+}
+.button2 {
+  /* margin-top: 3rem; */
+  font-family: "IBM Plex Mono", monospace;
+  border-radius: 10px;
+  width: 150px; /* Fixed width in pixels */
+  height:60px; /* Fixed height in pixels */
+  background-color:white;
+  border: white;
+  font-weight: 400;
+  font-size:1rem;
+}
+.button1 {
+  font-size:1rem;
+  background-color: rgb(78, 74, 255);
+  border: rgb(78, 74, 255);
+  color: white;
+}
+
+.button2 {
+  font-size:1rem;
+  background-color: white;
+  border: white;
+  color: black;
+}
+
+/* Styles for the header */
+.iskasizechangekrna{
+  gap:2rem;
+  margin-right:0rem;
+  display: flex;
+  /* fx-direction: row; */
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 95px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+/* Styles for the navigation links */
+.nav-links {
+  margin-right:6rem;
+  display: none;
+  /* justify-content: space-between; */
+  list-style: none;
+  gap: 0rem;
+  position: relative;
+}
+
+.nav-links li {
+  margin-top: 50px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+  text-align: left;
+  display: inline-block;
+}
+
+/* Styles for the mobile menu icon */
+.mobile-menu-icon {
+  display: none;
+}
+
+/* Styles for the images */
+.image2 {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  max-width: 70%;
+}
+
+.image11 {
+  position: relative;
+  left: 60%;
+  max-width: 45%;
+}
+
+/* Media query for screens with a max-width of 1000px (for mobile) */
+@media screen and (max-width: 1000px) {
+
+  .mobile-menu-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 35px;
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+    top: 15px;
+    right: 25px;
+    height: 10vh;
+    cursor: pointer;
+  }
+  menu-open .buttons {
+    margin-top: 1rem;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  /* Styles for the open mobile menu */
+  .menu-open {
+    width: 300px; /* Adjust the width as needed */
+    height: 100vh; /* Make the mobile menu cover the entire viewport height */
+    position: fixed; /* Make the menu fixed to prevent scrolling */
+    top: 0;
+    right: 0;
+    /* background-color: rgba(0, 0, 0, 0.9); */
+    /* overflow-y: hidden;  */
+    z-index: 1000; /* Ensure the menu is on top of other content */
+  }
+  
+
+  .menu-open {
+    overflow: hidden;
+  }
+
+  .nav-links-mobile {
+    height: 50px; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-out;
+    margin-bottom: 3rem;
+  }
+
+  .navbar-link {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+}
+/* } */

@@ -1,0 +1,148 @@
+/* Base styles for larger screens (min-width: 768px) */
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  right: -4%;
+}
+
+.About {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.h13 {
+  padding: 6rem;
+  position: relative;
+  right: 10%;
+  width: 100%;
+}
+
+.h13 h2 {
+  font-size: 20rem;
+  font-weight: 700;
+}
+
+.h15 {
+  margin-top: 10rem;
+  width: 260%;
+  position: relative;
+  right: 36%;
+}
+
+.h15 h2 {
+  color: #7a7a7a;
+}
+
+.heading h2 {
+  margin-left: 2rem;
+  color: white;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.About img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 2rem;
+}
+
+.heading p {
+  text-align: left;
+  font-size: 2rem;
+  color: rgb(122, 122, 122);
+  font-weight: 800;
+  margin-top: 1rem;
+}
+
+.listing {
+  margin-top: 10rem;
+  color: white;
+}
+
+.listing h1 {
+  color: white;
+  margin-bottom: 4rem;
+  font-size: 3rem;
+}
+
+/* Responsive styles for smaller screens (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .page-container {
+    padding: 0 10px; /* Adjust padding for smaller screens */
+  }
+
+  .About {
+    margin-top: 3rem;
+  }
+
+  .heading {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .h13 {
+    padding: 3rem;
+    right: 0;
+  }
+
+  .h13 h2 {
+    font-size: 10rem;
+  }
+
+  .h15 {
+    width: 100%;
+    right: 0;
+    margin-top: 5rem;
+  }
+
+  .h15 h2 {
+    font-size: 3rem;
+  }
+
+  .heading h2 {
+    margin-left: 0;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  .About img {
+    margin-top: 1rem;
+  }
+
+  .heading p {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .listing {
+    margin-top: 5rem;
+  }
+
+  .listing h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+/* Additional responsive styles as needed */
+@media screen and (max-width: 480px) {
+  /* Add responsive styles for screens with max-width: 480px if necessary */
+}
+
+/* Your other CSS styles here */
+
+/* Style the text in the 'colors' class */
+.colors {
+  color: rgb(78, 74, 255);
+}

@@ -1,0 +1,71 @@
+/* CSS for the toggle buttons */
+.toggle-button {
+    position: relative;
+    margin-left:60rem;
+    top:2%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color:white;
+    width:25px;
+    height: 15px;
+  }
+  .category-header h2{
+    margin-left:-2rem;
+   font-size:3rem;
+  }
+  .category-header h2:hover{
+    color:grey;
+   }
+  
+  .toggle-button:focus {
+    border-color:grey;
+    outline: none; /* Remove focus outline if needed */
+  }
+  
+  /* CSS for the arrow icons */
+  .toggle-icon {
+    vertical-align: middle;
+    margin-left: 8px; /* Adjust margin as needed */
+  }
+  /* Add this CSS to your stylesheet */
+  .heading-line {
+    border-color:grey;
+    -webkit-text-decoration-line: overline;
+    text-decoration-line: overline; 
+    width: 88%;
+    margin-bottom:2rem;
+    margin-top:2rem;
+    height:0.4px;
+    margin-left:-2rem;
+  }
+  .category-container:hover .category-header h2 {
+   
+    color:grey;
+  }
+  
+  .category-container:hover .toggle-icon {
+
+    color: grey;
+  }
+  .category-content{
+    margin-top:1rem;
+    font-size: 2rem;
+  }
+  .category-content h4{
+    margin-left:-2rem;
+    margin-top:2rem;
+   margin-bottom:2rem;
+  }
+  .category-content p{
+    line-break: strict;
+    margin-top:1rem;
+    margin-left:-2rem;
+    font-size: 0.8rem;
+  }
+/* Add space below heading1 and heading2 */
+.space {
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+  

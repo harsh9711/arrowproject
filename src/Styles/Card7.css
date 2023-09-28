@@ -1,0 +1,46 @@
+.card7{
+    background: transparent;
+    border-style: solid;
+    border-width: 0.5px 0.5px 0.5px 0.5px;
+    border-color: white;
+    border-radius: 0.1rem;
+}
+.baxing{
+        border:1px solid #ffff;
+        max-width:30rem;
+}
+.amountcard{  
+    display:flex;
+    flex-direction:row;
+}
+.iconss1{
+    color:white;
+}
+.text-and-icon1 {
+    background-color:#141414; 
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+  }
+  .text-and-icon1 h2 {
+    color:white;
+    background-color:#141414; 
+    margin: 0; /* Remove any default margin on h2 elements */
+  }
+
+  .third{
+    display:flex;
+    flex-direction:row;
+    color:white;
+  }
+  .third1{
+    display:flex;
+    flex-direction:column;
+  }
+  .thirdheading{
+    color:white;
+  }
+  .third2{
+    display:flex;
+    flex-direction:column;
+  }
